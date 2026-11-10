@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dulce Encanto | Repostería artesanal</title>
+    <meta
+      name="description"
+      content="Descubre deliciosos pasteles y postres artesanales."
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- ICONOS DE REDES SOCIALES -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="header">
+      <nav class="navbar">
+        <!-- LOGOTIPO -->
+        <a href="#inicio" class="logo">
+          <span class="logo-icon">✿</span>
+          <span>Dulce Encanto</span>
+        </a>
+
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#productos" class="nav-link">Productos</a></li>
+          <li><a href="#galeria" class="nav-link">Galería</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+
+        <!-- BOTÓN DE PEDIDOS -->
+        <a href="#productos" class="nav-button">
+          Hacer un pedido
+          <span>→</span>
+        </a>
+
+        <!-- BOTÓN MENÚ MÓVIL -->
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <span class="hero-badge"> ✨ Repostería artesanal </span>
+
+        <h1>
+          Un dulce momento
+          <span>comienza aquí.</span>
+        </h1>
+
+        <p>
+          Creamos pasteles y postres irresistibles, preparados con ingredientes
+          especiales y mucho amor para endulzar tus momentos.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#productos" class="hero-button">
+            Hacer un pedido <span>→</span>
+          </a>
+
+          <a href="#productos" class="hero-link"> Descubrir productos </a>
+        </div>
+
+        <div class="hero-note">
+          <span>♥</span>
+          Elaborados con amor, pensados para ti.
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="assets/images/pastel-hero.jpg"
+          alt="Delicioso pastel artesanal decorado con fresas"
+        />
+
+        <div class="hero-image-label">
+          <span>✦</span>
+          Un capricho delicioso
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN NOSOTROS -->
+    <section class="about" id="nosotros">
+      <div class="about-image">
+        <img
+          src="assets/images/reposteria-artesanal.jpg"
+          alt="Preparación artesanal de deliciosos postres"
+        />
+
+        <div class="about-image-badge">
+          <span>♥</span>
+          Hecho con amor
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="about-tag"> ✨ Nuestra historia </span>
+
+        <h2>
+          Más que postres,
+          <span>creamos momentos felices.</span>
+        </h2>
+
+        <p>
+          En nuestra repostería creemos que los mejores momentos de la vida
+          merecen un toque dulce. Por eso, elaboramos cada pastel y postre con
+          dedicación, ingredientes seleccionados y mucho amor.
+        </p>
+
+        <p>
+          Queremos acompañarte en tus celebraciones, sorprender a quienes más
+          quieres y convertir cada antojo en una experiencia inolvidable.
+        </p>
+
+        <a href="#productos" class="about-button">
+          Descubre nuestros productos
+          <span>→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECCIÓN PRODUCTOS -->
+    <section class="products-section" id="productos">
+      <div class="products-header">
+        <span class="products-tag"> ✨ Nuestro rincón dulce </span>
+
+        <h2>
+          Delicias que enamoran
+          <span>desde el primer bocado.</span>
+        </h2>
+
+        <p>
+          Descubre nuestros postres preparados con dedicación, ingredientes
+          especiales y mucho amor.
+        </p>
+      </div>
+
+      <div class="products-grid">
+        <!-- PRODUCTO 1 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img
+              src="assets/images/pastel-fresas.jpg"
+              alt="Pastel de fresas con crema"
+            />
+            <span class="product-label">Favorito</span>
+          </div>
+
+          <div class="product-info">
+            <span class="product-category">Pasteles</span>
+
+            <h3>Pastel de fresas con crema</h3>
+
+            <p>
+              Suave bizcocho, crema deliciosa y fresas frescas en cada porción.
+            </p>
+
+            <a href="#contacto" class="product-button">
+              Hacer un pedido <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 2 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img
+              src="assets/images/cupcakes.jpg"
+              alt="Cupcakes artesanales decorados"
+            />
+            <span class="product-label">Especial</span>
+          </div>
+
+          <div class="product-info">
+            <span class="product-category">Cupcakes</span>
+
+            <h3>Cupcakes artesanales</h3>
+
+            <p>
+              Pequeñas delicias con bizcocho esponjoso y coberturas
+              irresistibles.
+            </p>
+
+            <a href="#contacto" class="product-button">
+              Hacer un pedido <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 3 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img src="assets/images/brownies.jpg" alt="Brownies de chocolate" />
+            <span class="product-label">Irresistible</span>
+          </div>
+
+          <div class="product-info">
+            <span class="product-category">Chocolate</span>
+
+            <h3>Brownies de chocolate</h3>
+
+            <p>
+              Intensos, húmedos y con ese sabor a chocolate que siempre provoca.
+            </p>
+
+            <a href="#contacto" class="product-button">
+              Hacer un pedido <span>→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECCIÓN GALERÍA -->
+    <section class="gallery-section" id="galeria">
+      <div class="gallery-header">
+        <span class="gallery-tag">📸 Nuestro mundo dulce</span>
+
+        <h2>
+          Pequeñas obras de arte,
+          <span>grandes momentos.</span>
+        </h2>
+
+        <p>
+          Cada creación tiene una historia y un toque especial. ¡Mira algunas de
+          nuestras delicias!
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large">
+          <img
+            src="assets/images/galeria-pastel.jpg"
+            alt="Pastel artesanal decorado con fresas"
+          />
+          <div class="gallery-overlay">
+            <span>Pasteles especiales</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="assets/images/galeria-cupcakes.jpg"
+            alt="Cupcakes decorados con crema"
+          />
+          <div class="gallery-overlay">
+            <span>Cupcakes con amor</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="assets/images/galeria-chocolate.jpg"
+            alt="Postres de chocolate"
+          />
+          <div class="gallery-overlay">
+            <span>Amantes del chocolate</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="assets/images/galeria-fresas.jpg"
+            alt="Postre fresco de fresas"
+          />
+          <div class="gallery-overlay">
+            <span>Fresas irresistibles</span>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-wide">
+          <img
+            src="assets/images/galeria-decoracion.jpg"
+            alt="Decoración artesanal de un pastel"
+          />
+          <div class="gallery-overlay">
+            <span>Detalles que enamoran</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section class="contact-section" id="contacto">
+      <div class="contact-header">
+        <span class="contact-tag"> 💌 Estamos para ti </span>
+
+        <h2>
+          ¿Se te antojó algo
+          <span>delicioso?</span>
+        </h2>
+
+        <p>
+          Cuéntanos qué tienes en mente. Nos encantará ayudarte a encontrar el
+          postre perfecto.
+        </p>
+      </div>
+
+      <div class="contact-container">
+        <!-- INFORMACIÓN DE CONTACTO -->
+        <div class="contact-info">
+          <h3>Hablemos de algo dulce</h3>
+
+          <p>
+            Estamos aquí para atender tus consultas, pedidos especiales y
+            celebraciones.
+          </p>
+
+          <div class="contact-detail">
+            <span class="contact-icon">♥</span>
+            <div>
+              <h4>Pedidos personalizados</h4>
+              <p>Cuéntanos qué postre te gustaría disfrutar.</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-icon">✉</span>
+            <div>
+              <h4>Atención cercana</h4>
+              <p>Estamos disponibles para resolver tus dudas.</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-icon">🎂</span>
+            <div>
+              <h4>Momentos especiales</h4>
+              <p>Hagamos más dulces tus celebraciones.</p>
+            </div>
+          </div>
+
+          <div class="contact-decoration">
+            Hecho con amor, pensado para endulzar tu día ♥
+          </div>
+        </div>
+
+        <!-- FORMULARIO -->
+        <div class="contact-form-container">
+          <h3>Cuéntanos tu idea</h3>
+
+          <p>Completa tus datos y cuéntanos qué necesitas.</p>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="contact-name">Nombre completo</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="nombre"
+                placeholder="Escribe tu nombre"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Correo electrónico</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="correo"
+                placeholder="ejemplo@correo.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-phone">Teléfono</label>
+              <input
+                type="tel"
+                id="contact-phone"
+                name="telefono"
+                placeholder="Tu número de contacto"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">¿Qué te gustaría pedir?</label>
+              <textarea
+                id="contact-message"
+                name="mensaje"
+                rows="5"
+                placeholder="Cuéntanos qué postre tienes en mente..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="contact-button">
+              Enviar mensaje <span>→</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- MARCA -->
+        <div class="footer-brand">
+          <a href="#inicio" class="footer-logo">
+            <span>✿</span>
+            Dulce Encanto
+          </a>
+
+          <p>
+            Endulzamos tus momentos especiales con pasteles y postres preparados
+            con mucho amor.
+          </p>
+
+          <!-- REDES SOCIALES -->
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- ENLACES -->
+        <div class="footer-links">
+          <h3>Explora</h3>
+
+          <a href="#inicio">Inicio</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#productos">Productos</a>
+          <a href="#galeria">Galería</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        <!-- INFORMACIÓN -->
+        <div class="footer-links">
+          <h3>Atención</h3>
+
+          <a href="#contacto">Hacer un pedido</a>
+          <a href="#contacto">Consultas</a>
+          <a href="#contacto">Celebraciones</a>
+        </div>
+
+        <!-- MENSAJE -->
+        <div class="footer-message">
+          <h3>Un detalle dulce</h3>
+
+          <p>
+            Cada día es una nueva oportunidad para compartir algo delicioso.
+          </p>
+
+          <span>Hecho con ♥ en nuestra repostería.</span>
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer-bottom">
+        <p>
+          © <span id="current-year">2026</span> Dulce Encanto. Todos los
+          derechos reservados.
+        </p>
+
+        <a href="#inicio">Volver arriba ↑</a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
